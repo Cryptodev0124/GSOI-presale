@@ -1,0 +1,166 @@
+* {
+  font-family: 'Nunito';
+  box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+.modal-video-movie-wrap {
+ box-shadow: 0px 0px 25px black !important;
+}
+
+.makeStyles-paper-2 {
+ background-color: #f5f5f5;
+}
+
+.buttonX {
+ width: 56px;
+ position: absolute;
+ right: 5%;
+ top: 5%;
+}
+
+.Closed {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Live {
+ background-color: rgb(54, 201, 142);
+}
+
+
+.liveFont {
+ font-family: "IBM Plex Mono";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 15px;
+ display: flex;
+ align-content: center;}
+
+.liveFont i {
+ width: 9px;
+ height: 9px;
+ border-radius: 50%;
+ margin-right: 8px;
+ align-self: center;
+}
+
+.priceState {
+ padding: 12px 0px;
+ display: flex;
+ flex-direction: column;
+ -webkit-box-pack: justify;
+ justify-content: space-between;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+ text-align: left;
+ position: relative;
+ margin-top: 36px;
+}
+
+.boldFont {
+ font-weight: bold;
+ font-size: 15px;
+ line-height: 29px;
+ margin-top: 8px;
+ padding-bottom: 12px;
+}
+
+.borderLine {
+ height: 4px;
+ background-color: rgb(255, 255, 255);
+}
+
+.bidAmount {
+ display: flex;
+ -webkit-box-pack: justify;
+ justify-content: space-between;
+ font-size: 12px;
+ line-height: 14.65px;
+ font-family: "Helvetica Neue";
+ color: rgb(31, 25, 27);
+ margin-top: 12px;
+}
+
+.inputPanel {
+  border: none !important;
+  border-radius: 12px;
+  height: 20px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 70%;
+  color: rgb(236, 61, 61);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.depositBtn {
+  background: #6665ef;
+  color: white;
+  margin-bottom: 20px;
+}
+.depositBtn:disabled {
+  background: #828584;
+  color: black;
+}
+
+.setPackage {
+  /* background: #d0e2e6; */
+  margin-left: 30px;
+  margin-right: 30px; 
+  margin-top: 20px;
+  /* border-radius: 8px;  */
+  width: 150px;
+  height: 45px;
+  /* border: 1px solid #b6b9ff; */
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+/* .setPackage:focus {
+  background: rgb(140, 235, 230);
+  border: 2px solid #6665ef;
+}
+
+.setPackage:hover {
+  background: #66e8f8;
+} */
+
+.coinMark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #a8e5aa;
+  border-radius: 30px;
+  background: #a8e5aa80;
+  margin-left: 10px;
+  height: 40px;
+  margin-top: auto;
+}
+
+.pianoPrice {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    margin-top: 8px;
+    padding-bottom: 12px;
+}
+
+.unlockWallet {
+    width: fit-content;
+    position: fixed;
+    right: 50px;
+    top: 35px;
+}
